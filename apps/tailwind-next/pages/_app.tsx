@@ -9,7 +9,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <title>Welcome to tailwind-next!</title>
       </Head>
       <main className="app">
-        <Component {...pageProps} />
+        <div className="bg-indigo-500 p-2 font-mono min-h-80">min-h-80 test</div>
+        {/* <Component {...pageProps} /> */}
       </main>
     </>
   );
